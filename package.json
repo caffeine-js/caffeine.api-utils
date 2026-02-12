@@ -45,7 +45,9 @@
   ],
   "dependencies": {
     "@caffeine/constants": "link:@caffeine/constants",
-    "@caffeine/models": "link:@caffeine/models"
+    "@caffeine/models": "link:@caffeine/models",
+    "@caffeine/errors": "link:@caffeine/errors",
+    "@caffeine/entity": "link:@caffeine/entity"
   },
   "scripts": {
     "build": "tsup 'src/**/index.ts' --format cjs,esm --dts --tsconfig tsconfig.build.json --clean",

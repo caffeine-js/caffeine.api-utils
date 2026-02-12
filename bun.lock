@@ -6,6 +6,8 @@
       "name": "caffeine@api-utils",
       "dependencies": {
         "@caffeine/constants": "link:@caffeine/constants",
+        "@caffeine/entity": "link:@caffeine/entity",
+        "@caffeine/errors": "link:@caffeine/errors",
         "@caffeine/models": "link:@caffeine/models",
       },
       "devDependencies": {
@@ -34,6 +36,10 @@
     "@bcoe/v8-coverage": ["@bcoe/v8-coverage@1.0.2", "", {}, "sha512-6zABk/ECA/QYSCQ1NGiVwwbQerUCZ+TQbp64Q3AgmfNvurHH0j8TtXa1qbShXA6qqkpAj4V5W8pP6mLe1mcMqA=="],
 
     "@caffeine/constants": ["@caffeine/constants@link:@caffeine/constants", {}],
+
+    "@caffeine/entity": ["@caffeine/entity@link:@caffeine/entity", {}],
+
+    "@caffeine/errors": ["@caffeine/errors@link:@caffeine/errors", {}],
 
     "@caffeine/models": ["@caffeine/models@link:@caffeine/models", {}],
 
