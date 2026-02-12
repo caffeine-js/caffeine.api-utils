@@ -1,6 +1,6 @@
 import { MAX_ITEMS_PER_QUERY } from "@caffeine/constants";
 
-export const GetNumberOfPages = {
+export const GetNumberOfPagesService = {
 	run: (
 		totalItems: number,
 		itemsPerPage: number = MAX_ITEMS_PER_QUERY,

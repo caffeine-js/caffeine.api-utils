@@ -1,1 +1,1 @@
-export { GetNumberOfPages } from "./get-number-of-pages.service";
+export { GetNumberOfPagesService } from "./get-number-of-pages.service";
