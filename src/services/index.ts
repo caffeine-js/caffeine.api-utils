@@ -1,2 +1,1 @@
-export { PaginationService } from "./pagination.service";
-export { FindEntityByTypeService as FindEntityByType } from "./find-entity-by-type.service";
+export { GetNumberOfPages } from "./get-number-of-pages.service";

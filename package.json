@@ -1,5 +1,5 @@
 {
-  "name": "@caffeine/api-utils",
+  "name": "@caffeine/application",
   "type": "module",
   "author": {
     "name": "Alan Reis",
@@ -47,7 +47,8 @@
     "@caffeine/constants": "link:@caffeine/constants",
     "@caffeine/models": "link:@caffeine/models",
     "@caffeine/errors": "link:@caffeine/errors",
-    "@caffeine/entity": "link:@caffeine/entity"
+    "@caffeine/entity": "link:@caffeine/entity",
+    "@caffeine/domain": "link:@caffeine/domain"
   },
   "scripts": {
     "build": "tsup 'src/**/index.ts' --format cjs,esm --dts --tsconfig tsconfig.build.json --clean",

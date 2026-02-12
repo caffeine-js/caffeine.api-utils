@@ -1,14 +1,11 @@
 import type { EntryActions } from "@/types";
 import { detectEntry } from "@/utils";
-import type { Entity } from "@caffeine/entity";
-import type {
-	ICanReadId,
-	ICanReadSlug,
-} from "@caffeine/entity/types/repositories";
+import type { ICanReadId, ICanReadSlug } from "@caffeine/domain";
+import type { IEntity } from "@caffeine/entity/types";
 import { ResourceNotFoundException } from "@caffeine/errors/application";
 
-export class FindEntityByTypeService<
-	EntityType extends Entity,
+export class FindEntityByTypeUseCase<
+	EntityType extends IEntity,
 	RepositoryType extends ICanReadId<EntityType> & ICanReadSlug<EntityType>,
 > {
 	public constructor(private readonly repository: RepositoryType) {}
